@@ -1,24 +1,28 @@
 #about{
-    padding-top: 8vh;
+    padding-top: 5vh;
     height:200vh;
     display:block;
 }
 .intro{
     display:flex;
     justify-content: flex-start;
-    margin-top: 5px;
-    gap: 5vw;
-    height: 50vh;
+    margin-top: 0.4vh;
+    gap: 3vw;
+
+    border: 2px solid white;
 }
 
 .headshot{
     display:flex;
     justify-content: flex-end;
-    width: 45%;
+    align-items: flex-start;
+    width: 40%;
+    border: 2px solid white;
 }
 
 .headshot-img{
-    height: 100%;
+    width: 92%;
+    height: auto;
     border-radius: 0.7vw;
     /* border:2px solid rgb(78, 88, 79) */
 }
@@ -29,22 +33,20 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 3vh;
-    width: 40%;
+    width: 48%;
 
 }
 
-.bio p{
-    font-family: "Comic Sans";
-}
-
-.hello{
-    font-size: 3vw;
+.bio h2{
+    
 }
 
 .about-me{
-    font-size:1.5vw;
+    
 }
 
 .skills{
-    height: vh;
+    margin-top: 0.4vh;
+    height: 50vh;
+    border: 1px solid brown
 }
