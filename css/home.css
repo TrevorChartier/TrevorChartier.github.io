@@ -1,0 +1,11 @@
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.name{
+    height: auto;
+    width: 50vw;
+}
