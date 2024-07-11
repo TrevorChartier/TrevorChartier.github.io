@@ -21,7 +21,7 @@
     padding: 1.4vh 0; /* Padding inside each link */
 }
 
-#left-nav-desktop li a img {
+#left-nav-desktop img {
     width: auto;
     height: 2.9vw;
 
@@ -36,7 +36,7 @@
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 13vw;
+    width: 14vw;
 }
 
 #right-nav-desktop ul {
@@ -49,6 +49,7 @@
     font-weight: 400;
     display:flex;
     justify-content: center;
+    font-family: 'Inconsolata','Menlo','Roboto Mono', monospace; 
 }
 
 

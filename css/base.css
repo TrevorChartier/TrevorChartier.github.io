@@ -6,12 +6,12 @@
 }
 
 html{
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 body{
     background-color: #7f9483;
-    font-family: 'Inconsolata', monospace; 
+    font-family: 'Roboto','Montserrat', sans-serif;
     font-size: 1rem;  
 }
 
@@ -21,14 +21,21 @@ h1{
 
 h2{
     font-size: 2rem;
+    font-weight: 400;
+}
+
+h3{
+    font: 1.5rem;
+    font-weight: 400;
 }
 
 p{
-    font-size: 1rem;
+    font-size: 1.05rem;
+    font-weight: 100;
 }
 #content{
     margin-left:8vw;
-    margin-right:13vw;
+    margin-right:14vw;
 }
 
 a{

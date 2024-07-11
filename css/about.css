@@ -2,29 +2,33 @@
     padding-top: 5vh;
     height:200vh;
     display:block;
+    /* background-color: #909f90; */
+
+
 }
 .intro{
+    padding-left: 8vw;
     display:flex;
     justify-content: flex-start;
-    margin-top: 0.4vh;
     gap: 3vw;
+    height: fit-content;
 
-    border: 2px solid white;
+
 }
 
 .headshot{
     display:flex;
     justify-content: flex-end;
     align-items: flex-start;
-    width: 40%;
-    border: 2px solid white;
+    width: 35%;
+    height: fit-content;
 }
 
-.headshot-img{
-    width: 92%;
+.headshot img{
+    width: 100%;
     height: auto;
     border-radius: 0.7vw;
-    /* border:2px solid rgb(78, 88, 79) */
+
 }
 
 .bio{
@@ -32,21 +36,42 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 3vh;
-    width: 48%;
-
+    gap: 1.6vw;
+    width: 50%;
 }
 
-.bio h2{
-    
+.personal-interests{
+    margin-top: 5%;
+    height: 24%;
+    width: 80% /* This will change how much of the bio the hobbies icons take*/
 }
 
-.about-me{
-    
+.personal-interests ul{
+    margin-top: 5%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.personal-interests img{
+    height: 3.3vw;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    gap: 2vw;
+    height: 12%;
+}
+
+.location img{
+    height: 3.3vw;
 }
 
 .skills{
-    margin-top: 0.4vh;
+    margin-top: 8vh;
     height: 50vh;
-    border: 1px solid brown
+    border: 1px solid white;
 }
