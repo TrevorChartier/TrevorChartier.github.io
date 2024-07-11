@@ -1,19 +1,21 @@
 #about{
-    padding-top: 5vh;
+    padding-top: 2vh;
     height:200vh;
     display:block;
-    background-color: #909f90;
+
 
 
 }
 .intro{
+    background-color: #909f90;
+    border-radius: 0.7vw;
     padding-left: 8vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     display:flex;
     justify-content: flex-start;
     gap: 3vw;
     height: fit-content;
-
-
 }
 
 .headshot{
@@ -70,7 +72,7 @@
 }
 
 .skills{
-    margin-top: 10vh;
+    margin-top: 7vh;
     display: flex;
     gap: 1.5vw;
     flex-direction: column;
@@ -81,11 +83,11 @@
     display:grid;
     grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(2, 1fr);
-    gap: 2vw;
+    gap: 3vw;
     width: 90%;
 }
 
-.skills-container > div div{
+.skills-container > div > div{
     display: flex;
     align-items: center;
     gap:8%;
@@ -99,9 +101,38 @@
     height: 2.9vw;
 }
 
-
-
 .skills-container ul{
     list-style: none;
+}
+
+.skills-container li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.6vw;
+}
+
+.progress-meter { 
+    width: 70%;
+    height: 0.8vw;
+    border-radius: 2vw;
+    border: 3px solid black;
 
 }
+
+.progress-meter > span{
+    display: block;
+    height: 100%;
+    border-top-right-radius: 1.3vw;
+    border-bottom-right-radius: 1.3vw;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    background-color: rgb(196, 226, 213);
+
+    box-shadow: 
+        inset 0 2px 9px  rgba(255,255,255,0.3),
+        inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+}
+
