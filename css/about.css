@@ -73,5 +73,12 @@
 .skills{
     margin-top: 8vh;
     height: 50vh;
+
+    display: flex;
+    justify-content: center;
     border: 1px solid white;
+}
+
+.skills h1{
+
 }
