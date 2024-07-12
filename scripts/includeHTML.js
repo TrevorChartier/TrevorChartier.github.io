@@ -2,7 +2,10 @@ document.addEventListener("DOMContentLoaded", function() {
     includeHTML("left-nav-desktop-placeholder", "html-elements/left-nav-desktop.html");
     includeHTML("right-nav-desktop-placeholder", "html-elements/right-nav-desktop.html");
     includeHTML("home-placeholder", "html-elements/home.html");
-    includeHTML("about-placeholder", "html-elements/about.html");
+    includeHTML("intro-placeholder", "html-elements/intro.html");
+    includeHTML("skills-placeholder", "html-elements/skills.html");
+    includeHTML("experience-placeholder", "html-elements/experience.html");
+    includeHTML("projects-placeholder", "html-elements/projects.html");
 
 });
 
