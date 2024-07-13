@@ -1,0 +1,66 @@
+#projects{
+    height: 100vh;
+    padding-top: 5vh;
+    margin-top: 5vh;
+    display: flex;
+    gap: 1.5vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swiper-container{
+    position: relative;
+    width: 85%;
+
+}
+
+
+#chevron{
+    height: 3.2vw;
+    width: auto;
+}
+
+#chevron:hover{
+    opacity: 0.75;
+}
+
+.swiper {
+    width: 85%;
+    height: 40vw;
+    border-radius: 1vw;
+}
+
+
+.swiper-container .swiper-slide{
+    background-color: #909f90;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+#pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+
+}
+
+.swiper-pagination .swiper-pagination-bullet-active{
+    background-color: rgb(189, 220, 207); 
+    box-shadow: 
+        inset 0 2px 5px  rgba(255,255,255,0.3),
+        inset 0 -2px 3px rgba(29, 29, 29, 0.4);
+    height: 0.7vw;
+    width: 0.7vw;
+}
+
+.swiper-pagination .swiper-pagination-bullet{
+    height: 0.7vw;
+    width: 0.7vw;
+}

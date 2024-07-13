@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     includeHTML("skills-placeholder", "html-elements/skills.html");
     includeHTML("experience-placeholder", "html-elements/experience.html");
     includeHTML("projects-placeholder", "html-elements/projects.html");
+    includeHTML("footer-placeholder", "html-elements/footer.html");
 
 });
 
@@ -14,6 +15,32 @@ function includeHTML(placeholderId, filePath) {
         .then(response => response.text())
         .then(data => {
             document.getElementById(placeholderId).innerHTML = data;
+            if(placeholderId == "projects-placeholder"){
+                initializeSwiper();
+            }
         })
         .catch(error => console.error('Error loading HTML:', error));
+}
+
+
+function initializeSwiper() {
+    new Swiper('.swiper', {
+        direction: 'horizontal',
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        keyboard: {
+            enabled: true,
+            onlyInViewport: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
 }
