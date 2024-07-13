@@ -9,13 +9,15 @@
 }
 
 .swiper-container{
-    position: relative;
+    display: flex;
+    align-items: center;
     width: 85%;
 
 }
 
 
 #chevron{
+    position: static;
     height: 3.2vw;
     width: auto;
 }
@@ -38,9 +40,6 @@
     justify-content: center;
     align-items: center;
 }
-
-
-
 
 
 #pagination{
