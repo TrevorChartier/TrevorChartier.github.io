@@ -11,14 +11,14 @@
 }
 
 #left-nav-desktop li {
-    margin-bottom: 2vh; /* Margin between list items */
+    margin-bottom: 2vh; 
     display:flex;
     justify-content: center;
 }
 
 #left-nav-desktop li a {
-    display: block; /* full area clickable */
-    padding: 1.4vh 0; /* Padding inside each link */
+    display: block; 
+    padding: 1.4vh 0; 
 }
 
 #left-nav-desktop img {

@@ -22,7 +22,6 @@ function includeHTML(placeholderId, filePath) {
         .catch(error => console.error('Error loading HTML:', error));
 }
 
-
 function initializeSwiper() {
     new Swiper('.swiper', {
         direction: 'horizontal',
@@ -44,3 +43,10 @@ function initializeSwiper() {
         },
     });
 }
+
+// Ensure that project button links open in a new tab
+document.querySelectorAll('.link-box a').forEach(link => {
+    link.addEventListener('click', function(event) {
+        event.stopPropagation();
+    });
+});
