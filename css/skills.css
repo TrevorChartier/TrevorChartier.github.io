@@ -15,6 +15,13 @@
     width: 90%;
 }
 
+/* .skills-container > div{
+    border-radius: 1vw;
+    padding-left: 0.3vw;
+    box-shadow: inset 10px 10px 20px #6c7c6f, 
+                inset -10px -10px 20px #8d9a8b;
+} */
+
 .skills-container > div > div{
     display: flex;
     align-items: center;
@@ -64,3 +71,40 @@
     overflow: hidden;
 }
 
+/* .progress-meter > span {
+    display: block;
+    height: 100%;
+    border-radius: 10px; 
+    background-color: #afeee6; 
+    box-shadow:
+        inset 5px 5px 10px #cad4d9, 
+        inset -5px -5px 10px #ffffff; 
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-meter > span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(145deg, #c7e5df, #d5dadb);
+    z-index: -1;
+}
+
+.progress-meter > span::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    background-color: #f0f3f5; 
+    border-radius: 10px; 
+    box-shadow:
+        5px 5px 10px rgba(0, 0, 0, 0.1), 
+        -5px -5px 10px rgba(255, 255, 255, 0.7); 
+    z-index: -2;
+} */

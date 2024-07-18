@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     includeAllHTML().then(setActive);
+    addDots();
 });
 
 function includeAllHTML(){
@@ -80,3 +81,26 @@ function setActive() {
 
     sections.forEach(section => observer.observe(section));
 }
+
+
+function addDots(){
+    const dotContainer = document.querySelector('.dot-container');
+
+    // Create dots
+    const numDots = 50; // Adjust the number of dots as needed
+    for (let i = 0; i < numDots; i++) {
+        const dot = document.createElement('div');
+        dot.classList.add('dot');
+        dot.style.left = `${Math.random() * 100}vw`; // Randomize initial horizontal position
+        dot.style.top = `${Math.random() * 100}vh`; // Randomize initial vertical position
+        dot.style.animation = `drift ${Math.random() * 10 + 300}s infinite linear`; // Randomize animation duration
+
+        // Randomize animation direction
+        const direction = Math.random() > 0.5 ? '100vw' : '-100vw'; // Randomly choose left or right direction
+        const translateY = Math.random() * 100 + 'vh'; // Randomize vertical distance
+
+        dot.style.animationDirection = Math.random() > 0.5 ? 'normal' : 'reverse'; 
+        dotContainer.appendChild(dot);
+    }
+};
+

@@ -50,15 +50,18 @@
     display: flex;
 }
 
-.leaf{
+.leaf {
     position: relative;
     width: 1rem;
     height: 1rem;
-    border: 0.2rem solid black;
-    background-color: #909f90;
+    border: 0.2rem solid #000000; /* Dark border color */
+    background-color: #8e9f8e; /* Match the lighter color from exp-content gradient */
     border-radius: 50%;
     box-sizing: border-box;
     left: 0.05rem;
+    box-shadow: 
+        inset 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.2), /* Darker inset shadow */
+        inset -0.1rem -0.1rem 0.3rem rgba(255, 255, 255, 0.6), /* Lighter inset shadow */
 }
 
 #right-tree .leaf{
@@ -75,7 +78,11 @@
 }
 
 .exp-content{
-    background-color: #909f90;
+    background: linear-gradient(145deg, #8e9f8e, #7a8f7a);
+    border-radius: 1vw;
+    padding: 5vh 8vw;
+    box-shadow: 0.55rem 0.55rem 1.1rem #6c7c6f, /* Dark shadow */
+                0.55rem 0.55rem 1.1rem #8d9a8b; /* Light shadow */ 
     border-radius: 1vw;
     padding: 1rem;
 }

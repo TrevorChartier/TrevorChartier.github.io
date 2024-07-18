@@ -2,11 +2,17 @@
     padding-top: 2vh;
     height:fit-content;
     display:block;
+
 }
 
+/* box-shadow: inset 10px 10px 20px #6c7c6f, 
+                inset -10px -10px 20px #8d9a8b;  */
 #intro{
-    background-color: #909f90;
+    background: linear-gradient(145deg, #8e9f8e, #7a8f7a);
     border-radius: 1vw;
+    padding: 5vh 8vw;
+    box-shadow: 0.55rem 0.55rem 1.1rem #6c7c6f, /* Dark shadow */
+                0.55rem 0.55rem 1.1rem #8d9a8b; /* Light shadow */ 
     padding-left: 8vw;
     padding-top: 5vh;
     padding-bottom: 5vh;
