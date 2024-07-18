@@ -19,6 +19,7 @@ body{
 h1{
     font-size: 3rem;
     font-weight: 500;
+    align-self: start;
 }
 
 h2{
@@ -36,8 +37,8 @@ p{
     font-weight: 100;
 }
 #content{
-    margin-left:8vw;
-    margin-right:14vw;
+    margin-left:9vw;
+    margin-right:15vw;
 }
 
 a{
@@ -46,5 +47,9 @@ a{
     color: black;
 }
 
-
+.section-title{
+    width: 100%;
+    border-bottom: 0.15rem solid black;
+    padding-bottom: 1vw;
+}
 

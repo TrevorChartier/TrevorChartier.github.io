@@ -1,21 +1,28 @@
 document.addEventListener("DOMContentLoaded", function() {
-    includeHTML("left-nav-desktop-placeholder", "html-elements/left-nav-desktop.html");
-    includeHTML("right-nav-desktop-placeholder", "html-elements/right-nav-desktop.html");
-    includeHTML("home-placeholder", "html-elements/home.html");
-    includeHTML("intro-placeholder", "html-elements/intro.html");
-    includeHTML("skills-placeholder", "html-elements/skills.html");
-    includeHTML("experience-placeholder", "html-elements/experience.html");
-    includeHTML("projects-placeholder", "html-elements/projects.html");
-    includeHTML("footer-placeholder", "html-elements/footer.html");
-
+    includeAllHTML().then(setActive);
 });
 
+function includeAllHTML(){
+    const includes = [
+        includeHTML("left-nav-desktop-placeholder", "html-elements/left-nav-desktop.html"),
+        includeHTML("right-nav-desktop-placeholder", "html-elements/right-nav-desktop.html"),
+        includeHTML("home-placeholder", "html-elements/home.html"),
+        includeHTML("intro-placeholder", "html-elements/intro.html"),
+        includeHTML("skills-placeholder", "html-elements/skills.html"),
+        includeHTML("experience-placeholder", "html-elements/experience.html"),
+        includeHTML("projects-placeholder", "html-elements/projects.html"),
+        includeHTML("footer-placeholder", "html-elements/footer.html")
+    ];
+
+    return Promise.all(includes);
+}
+
 function includeHTML(placeholderId, filePath) {
-    fetch(filePath)
+    return fetch(filePath)
         .then(response => response.text())
         .then(data => {
             document.getElementById(placeholderId).innerHTML = data;
-            if(placeholderId == "projects-placeholder"){
+            if(placeholderId === "projects-placeholder"){
                 initializeSwiper();
             }
         })
@@ -50,3 +57,26 @@ document.querySelectorAll('.link-box a').forEach(link => {
         event.stopPropagation();
     });
 });
+
+// For animating the element of the nav-bar corresponding to the current section
+function setActive() {
+    const sections = document.querySelectorAll('main > section, .placeholder-section > section');
+    const navLinks = document.querySelectorAll(".nav-link");
+    navLinks.forEach(link => console.log(link.getAttribute('href')));
+
+
+    const observer = new IntersectionObserver(navCheck, { threshold: 0.3});
+
+    function navCheck(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                console.log(entry);
+                navLinks.forEach(link => {
+                    link.classList.toggle('active', link.getAttribute('href').substring(1) === entry.target.id);
+                });
+            }
+        });
+    }
+
+    sections.forEach(section => observer.observe(section));
+}

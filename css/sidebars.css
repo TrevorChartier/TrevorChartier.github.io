@@ -56,3 +56,7 @@
 #right-nav-desktop li a:hover {
     transform: scale(1.2);
 }
+
+.active {
+    color: rgb(236, 255, 241);
+}
