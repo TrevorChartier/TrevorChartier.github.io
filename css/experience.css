@@ -59,8 +59,10 @@
     border-radius: 50%;
     box-sizing: border-box;
     left: 0.05rem;
+    box-shadow: 0.35rem 0.35rem 0.7rem rgba(108, 124, 111, 0.8), /* Dark shadow */
+                -0.35rem -0.35rem 0.7rem rgba(141, 154, 139, 0.12);
     box-shadow: 
-        inset 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.2), /* Darker inset shadow */
+        inset 0.1rem 0.1rem 0.3rem rgba(32, 33, 32, 0.6), /* Darker inset shadow */
         inset -0.1rem -0.1rem 0.3rem rgba(255, 255, 255, 0.6), /* Lighter inset shadow */
 }
 
@@ -77,13 +79,12 @@
 
 }
 
-.exp-content{
-    background: linear-gradient(145deg, #8e9f8e, #7a8f7a);
+.exp-content {
+    background: linear-gradient(145deg, #8c9d8c, #7e937e);
     border-radius: 1vw;
     padding: 5vh 8vw;
-    box-shadow: 0.55rem 0.55rem 1.1rem #6c7c6f, /* Dark shadow */
-                0.55rem 0.55rem 1.1rem #8d9a8b; /* Light shadow */ 
-    border-radius: 1vw;
+    box-shadow: 0.35rem 0.35rem 0.7rem rgba(108, 124, 111, 0.8), /* Dark shadow */
+                -0.35rem -0.35rem 0.7rem rgba(141, 154, 139, 0.8); /* Light shadow */ 
     padding: 1rem;
 }
 

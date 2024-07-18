@@ -13,14 +13,13 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 3vw;
     width: 90%;
+    border-radius: 2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-shadow: inset 0.5rem 0.5rem 0.6rem rgba(108, 124, 114, 0.7),
+                inset -0.5rem -0.5rem 0.6rem rgba(141, 154, 139, 0.7);
 }
 
-/* .skills-container > div{
-    border-radius: 1vw;
-    padding-left: 0.3vw;
-    box-shadow: inset 10px 10px 20px #6c7c6f, 
-                inset -10px -10px 20px #8d9a8b;
-} */
 
 .skills-container > div > div{
     display: flex;

@@ -12,7 +12,7 @@
     border-radius: 1vw;
     padding: 5vh 8vw;
     box-shadow: 0.55rem 0.55rem 1.1rem #6c7c6f, /* Dark shadow */
-                0.55rem 0.55rem 1.1rem #8d9a8b; /* Light shadow */ 
+                0.55rem 0.55rem 1.1rem #97a495; /* Light shadow */ 
     padding-left: 8vw;
     padding-top: 5vh;
     padding-bottom: 5vh;
@@ -26,7 +26,7 @@
     display:flex;
     justify-content: flex-end;
     align-items: flex-start;
-    width: 35%;
+    width: 40%;
     height: fit-content;
 }
 
@@ -43,6 +43,7 @@
     align-items: flex-start;
     gap: 1.6vw;
     width: 50%;
+    height: fit-content;
 }
 
 .personal-interests{
@@ -64,6 +65,7 @@
 }
 
 .location{
+    padding-top: 1vw;
     display: flex;
     align-items: center;
     margin-top: auto;

@@ -17,8 +17,9 @@ body{
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 3.3rem;
     font-weight: 500;
+    font-family: 'Inconsolata','Menlo','Roboto Mono', monospace;
     align-self: start;
 }
 
