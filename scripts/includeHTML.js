@@ -93,7 +93,7 @@ function copyEmail(event) {
 
 function addDots() {
     const dotContainer = document.querySelector('.dot-container');
-    const numDots = 30; // Adjust the number of dots as needed
+    const numDots = 38; // Adjust the number of dots as needed
 
     for (let i = 0; i < numDots; i++) {
         const dot = document.createElement('div');
@@ -107,7 +107,7 @@ function addDots() {
         } else if (random < 0.6) {
             dot.style.backgroundColor = 'rgba(176, 185, 192, 0.6)'; 
         } else if(random <0.85) {
-            dot.style.backgroundColor = 'rgba(233, 230, 178, 0.6)'; 
+            dot.style.backgroundColor = 'rgba(233, 230, 178, 0.4)'; 
         }
         else {
             dot.style.backgroundColor = 'rgba(45, 112, 85, 0.4)';
