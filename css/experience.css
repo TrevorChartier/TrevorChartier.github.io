@@ -91,16 +91,19 @@
 .organization{
     margin-top: 0.5vw;
 }
-.achievements{
-    list-style-position: inside;
+
+.achievements {
+    list-style-position: inside; 
     margin-top: 1vw;
+    padding: 0; /* Reset default padding */
 }
 
-.achievements li{
-    padding-left: 1.5em; 
+.achievements li {
+    padding-left: 1.5em;
     text-indent: -1em;
-    padding: 0.3rem 1.5em;
+    padding: 0.3rem 1.5em; 
 }
+
 .date{
     margin-top: 1vw;
     display: flex;
