@@ -12,7 +12,7 @@ html{
 /* #7f9483  rgb(167, 193, 182) rgb(169, 189, 180) */
 body{
     background-color: #7f9483;
-    font-family: 'Roboto','Montserrat', sans-serif;
+    font-family: sans-serif;
     font-size: 1rem;  
 }
 
@@ -35,7 +35,7 @@ h3{
 
 p{
     font-size: 1.05rem;
-    font-weight: 100;
+    font-weight: 300;
 }
 #content{
     margin-left:9vw;

@@ -58,5 +58,7 @@
 }
 
 .active {
-    color: rgb(236, 255, 241);
+    color: rgb(238, 255, 243);
+    font-weight: 600 !important;
+
 }
