@@ -1,6 +1,6 @@
 #left-nav-desktop {
     position: fixed;
-    top: 50%; 
+    top: 50vh; 
     transform: translateY(-50%);
     width: 8vw; 
     left:0
@@ -34,7 +34,7 @@
 #right-nav-desktop {
     position: fixed;
     right: 0;
-    top: 50%;
+    top: 50vh;
     transform: translateY(-50%);
     width: 14vw;
 }
