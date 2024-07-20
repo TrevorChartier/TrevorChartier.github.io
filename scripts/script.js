@@ -93,7 +93,7 @@ function copyEmail(event) {
 
 function addDots() {
     const dotContainer = document.querySelector('.dot-container');
-    const numDots = 38; // Adjust the number of dots as needed
+    const numDots = 35; // Adjust the number of dots as needed
 
     for (let i = 0; i < numDots; i++) {
         const dot = document.createElement('div');

@@ -10,8 +10,8 @@
 
 .dot {
     position: absolute;
-    width: 0.25rem;
-    height: 0.25rem;
+    width: 0.6vh;
+    height: 0.6vh;
     border-radius: 50%;
     background-color: rgba(233, 230, 178, 0.6); 
 }
