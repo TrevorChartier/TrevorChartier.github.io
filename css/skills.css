@@ -8,6 +8,7 @@
 }
 
 .skills-container{
+    background-color: rgba(127, 148, 131,0.75);
     display:grid;
     grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(2, 1fr);
