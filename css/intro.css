@@ -1,79 +1,76 @@
-#about{
-    padding-top: 2vh;
-    height:fit-content;
-    display:block;
-
+#about {
+  padding-top: 2vh;
+  height: fit-content;
+  display: block;
 }
 
 /* box-shadow: inset 10px 10px 20px #6c7c6f, 
                 inset -10px -10px 20px #8d9a8b;  */
-#intro{
-    background: linear-gradient(145deg, #8e9f8e, #7a8f7a);
-    border-radius: 1vw;
-    padding: 5vh 8vw;
-    box-shadow: 0.55rem 0.55rem 1.1rem #6c7c6f, /* Dark shadow */
-                0.55rem 0.55rem 1.1rem #97a495; /* Light shadow */ 
-    padding-left: 8vw;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    display:flex;
-    justify-content: flex-start;
-    gap: 3vw;
-    height: fit-content;
+#intro {
+  background: linear-gradient(145deg, #8e9f8e, #7a8f7a);
+  border-radius: 1vw;
+  padding: 5vh 8vw;
+  box-shadow: 0.55rem 0.55rem 1.1rem #6c7c6f,
+    /* Dark shadow */ 0.55rem 0.55rem 1.1rem #97a495; /* Light shadow */
+  padding-left: 8vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: flex;
+  justify-content: flex-start;
+  gap: 3vw;
+  height: fit-content;
 }
 
-.headshot{
-    display:flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    width: 40%;
-    height: fit-content;
+.headshot {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 40%;
+  height: fit-content;
 }
 
-.headshot img{
-    width: 100%;
-    border-radius: 1vw;
-
+.headshot img {
+  width: 100%;
+  border-radius: 1vw;
 }
 
-.bio{
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 1.6vw;
-    width: 50%;
-    height: fit-content;
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.6vw;
+  width: 50%;
+  height: fit-content;
 }
 
-.personal-interests{
-    margin-top: 5%;
-    height: 24%;
-    width: 80% /* This will change how much of the bio the hobbies icons take*/
+.personal-interests {
+  margin-top: 5%;
+  height: 24%;
+  width: 80%; /* This will change how much of the bio the hobbies icons take*/
 }
 
-.personal-interests ul{
-    margin-top: 5%;
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    height: 50%;
+.personal-interests ul {
+  margin-top: 5%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  height: 50%;
 }
 
-.personal-interests img{
-    height: 3.3vw;
+.personal-interests img {
+  height: 3.3vw;
 }
 
-.location{
-    padding-top: 1vw;
-    display: flex;
-    align-items: center;
-    margin-top: auto;
-    gap: 2vw;
-    height: 12%;
+.location {
+  padding-top: 1vw;
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  gap: 2vw;
+  height: 12%;
 }
 
-.location img{
-    height: 3.3vw;
+.location img {
+  height: 3.3vw;
 }
-

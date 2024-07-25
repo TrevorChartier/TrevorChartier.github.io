@@ -52,7 +52,7 @@ function initializeSwiper() {
     });
 }
 
-// Ensure that project button links open in a new tab
+// Ensure that project button links open in a new tab to override swiper.js default behavior
 document.querySelectorAll('.link-box a').forEach(link => {
     link.addEventListener('click', function(event) {
         event.stopPropagation();
@@ -70,7 +70,6 @@ function setActive() {
     function navCheck(entries) {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                console.log(entry);
                 navLinks.forEach(link => {
                     link.classList.toggle('active', link.getAttribute('href').substring(1) === entry.target.id);
                 });
@@ -93,7 +92,7 @@ function copyEmail(event) {
 
 function addDots() {
     const dotContainer = document.querySelector('.dot-container');
-    const numDots = 35; // Adjust the number of dots as needed
+    const numDots = 35; 
 
     for (let i = 0; i < numDots; i++) {
         const dot = document.createElement('div');

@@ -1,64 +1,61 @@
 #left-nav-desktop {
-    position: fixed;
-    top: 50vh; 
-    transform: translateY(-50%);
-    width: 8vw; 
-    left:0
+  position: fixed;
+  top: 50vh;
+  transform: translateY(-50%);
+  width: 8vw;
+  left: 0;
 }
 
 #left-nav-desktop ul {
-    list-style-type: none; 
+  list-style-type: none;
 }
 
 #left-nav-desktop li {
-    margin-bottom: 2vh; 
-    display:flex;
-    justify-content: center;
+  margin-bottom: 2vh;
+  display: flex;
+  justify-content: center;
 }
 
 #left-nav-desktop li a {
-    display: block; 
-    padding: 1.4vh 0; 
+  display: block;
+  padding: 1.4vh 0;
 }
 
 #left-nav-desktop img {
-    width: auto;
-    height: 2.9vw;
-
+  width: auto;
+  height: 2.9vw;
 }
 
 #left-nav-desktop li a img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 #right-nav-desktop {
-    position: fixed;
-    right: 0;
-    top: 50vh;
-    transform: translateY(-50%);
-    width: 14vw;
+  position: fixed;
+  right: 0;
+  top: 50vh;
+  transform: translateY(-50%);
+  width: 14vw;
 }
 
 #right-nav-desktop ul {
-    list-style-type: none; 
+  list-style-type: none;
 }
 
 #right-nav-desktop li a {
-    padding: 2.7vh 0; /* Padding inside each link */
-    font-size: 1.5vw;
-    font-weight: 400;
-    display:flex;
-    justify-content: center;
-    font-family: 'Inconsolata','Menlo','Roboto Mono', monospace; 
+  padding: 2.7vh 0; /* Padding inside each link */
+  font-size: 1.5vw;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  font-family: "Inconsolata", "Menlo", "Roboto Mono", monospace;
 }
 
-
 #right-nav-desktop li a:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .active {
-    color: rgb(238, 255, 243);
-    font-weight: 600 !important;
-
+  color: rgb(238, 255, 243);
+  font-weight: 600 !important;
 }
