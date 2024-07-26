@@ -1,0 +1,2 @@
+# Exclude avalanche project html files from language statistics
+html-elements/avalanche-project/* linguist-vendored
