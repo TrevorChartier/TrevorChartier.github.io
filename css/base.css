@@ -37,6 +37,12 @@ p {
   font-size: 1.05rem;
   font-weight: 300;
 }
+
+strong {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
 #content {
   margin-left: 9vw;
   margin-right: 15vw;
