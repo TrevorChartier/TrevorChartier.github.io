@@ -34,7 +34,7 @@ footer {
   margin-bottom: 2.5vh;
 }
 
-.button {
+footer .button {
   width: 20vw;
   height: 4vw;
   border-radius: 0.4vw;

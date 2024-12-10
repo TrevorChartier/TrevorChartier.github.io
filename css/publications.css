@@ -1,0 +1,51 @@
+.publication-content {
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+
+.publication-box {
+    background: linear-gradient(145deg, #8c9d8c, #7e937e);
+    border-radius: 1vw;
+    padding: 5vh 8vw;
+    box-shadow: 0.35rem 0.35rem 0.7rem rgba(108, 124, 111, 0.8),
+      -0.35rem -0.35rem 0.7rem rgba(141, 154, 139, 0.8);
+    padding: 1rem;
+    margin-bottom: 3vw;
+  }
+
+.paper-title{
+    margin-bottom: 1vw;
+}
+
+.paper-link{
+    margin-bottom: 1vw;
+}
+
+.paper-details {
+    margin-left: 3vw;
+    margin-bottom: 1vw;
+
+}
+
+.paper-details li{
+    margin-bottom: 0.5vw;
+}
+
+#article-button{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5rem;
+    padding-bottom: 0rem;
+    float: right;
+    margin: 1rem;
+}
+
+#article-button a{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+
+

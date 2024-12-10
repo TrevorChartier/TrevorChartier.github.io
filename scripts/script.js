@@ -12,6 +12,7 @@ function includeAllHTML(){
         includeHTML("skills-placeholder", "html-elements/skills.html"),
         includeHTML("experience-placeholder", "html-elements/experience.html"),
         includeHTML("projects-placeholder", "html-elements/projects.html"),
+        includeHTML("publications-placeholder", "html-elements/publications.html"),
         includeHTML("footer-placeholder", "html-elements/footer.html")
     ];
 
@@ -61,7 +62,7 @@ document.querySelectorAll('.link-box a').forEach(link => {
 
 // For animating the element of the nav-bar corresponding to the current section
 function setActive() {
-    const sections = document.querySelectorAll('main > section, .placeholder-section > section');
+    const sections = document.querySelectorAll('main > section');
     const navLinks = document.querySelectorAll(".nav-link");
     navLinks.forEach(link => console.log(link.getAttribute('href')));
 
