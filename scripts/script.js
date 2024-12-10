@@ -66,7 +66,7 @@ function setActive() {
     const navLinks = document.querySelectorAll(".nav-link");
     navLinks.forEach(link => console.log(link.getAttribute('href')));
 
-    const observer = new IntersectionObserver(navCheck, { threshold: 0.3});
+    const observer = new IntersectionObserver(navCheck, { threshold: 0.2});
 
     function navCheck(entries) {
         entries.forEach(entry => {
