@@ -138,3 +138,7 @@
 #avalanche-analysis img{
   filter: brightness(85%);
 }
+
+#laymo-gif{
+  filter: saturate(180%);
+}
