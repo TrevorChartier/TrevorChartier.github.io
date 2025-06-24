@@ -142,3 +142,7 @@
 #laymo-gif{
   filter: saturate(180%);
 }
+
+#MonoVO-img{
+  filter: contrast(80%);
+}
