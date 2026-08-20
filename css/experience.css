@@ -93,8 +93,15 @@
     width: 80%;
 }
 
-#csu img{
+#csu {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#university #csu img {
   width: 68%;
+  height: auto; 
 }
 
 .organization {
